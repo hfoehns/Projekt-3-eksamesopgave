@@ -1,0 +1,59 @@
+@media only screen and (min-width: 910px) {
+    .menu {
+        top: 40px;
+    }
+
+    .menu button {
+        display: none;
+    }
+
+    .menu ul {
+        display: block;
+        padding: 0px;
+        margin: 5px;
+    }
+
+    .menu li {
+        display: inline;
+    }
+
+    .menu ul li a {
+        display: inline;
+        padding: 18px;
+    }
+
+    .apps {
+        display: block;
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .apps img {
+        width: 125px;
+        margin: 50px;
+
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .card-portfolio {
+        width: 400px;
+    }
+
+    main {
+        width: 1000px;
+    }
+}
+
+@media only screen and (min-width: 1225px) {
+    .menu ul li a {
+        display: inline;
+        padding-right: 70px;
+    }
+
+    .break {
+        width: 100%;
+    }
+}
