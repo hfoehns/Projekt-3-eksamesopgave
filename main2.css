@@ -34,6 +34,7 @@ header {
     background-color: #832161;
     overflow: hidden;
     padding: 10px;
+    display: flex;
 }
 
 main {
@@ -55,27 +56,29 @@ a {
 }
 
 .name {
-    position: absolute;
     top: 45px;
     font-size: 30px;
     font-family: shadows_into_light;
 
 }
+.logobox {
+    flex: 1; text-align: center; 
+}
 
-.logo {
-    width: 80px;
-    height: 80px;
+.logo { 
     margin: auto;
-    display: block;
+    vertical-align:top;/* here */
+    max-width: 100%;
+    max-height: 80px;
 }
 
 .menu {
     background-color: #832161;
-    position: absolute;
     right: 0px;
     top: 30px;
     border-radius: 20px;
     z-index: 99;
+    margin-left: auto;
 }
 
 .menu button {
@@ -162,119 +165,4 @@ main {
     right: 10px;
     bottom: 5px;
     color: #8cabbe;
-}
-
-.apps {
-    margin: auto;
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-auto-rows: auto auto;
-    justify-items: center;
-    width: 500px;
-    height: 500px;
-}
-
-.apps img {
-    width: 100px;
-}
-
-.contact-info {
-    padding: 0;
-    width: 95%;
-    margin: auto;
-}
-
-.info {
-    font-size: 20px;
-    list-style: none;
-    text-align: left;
-}
-
-.info .icon-phone {
-    vertical-align: middle;
-    margin: 20px;
-}
-
-.info .icon-mail {
-    vertical-align: middle;
-    margin: 10px;
-}
-
-.text-box {
-    display: block;
-    background-color: #ffffff;
-    border: 15px solid #ffffff;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-    margin-left: 0px;
-    box-sizing: border-box;
-}
-
-.text-box-besked {
-    display: block;
-    background-color: #ffffff;
-    border: 10px solid #ffffff;
-    border-radius: 10px;
-    height: 150px;
-    margin-top: 10px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-button[type="submit"] {
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    color: #4a4a5c;
-    border: none;
-    border-bottom: 2px solid #4a4a5c;
-    border-right: 2px solid #4a4a5c;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: crimsonpro;
-}
-
-.description {
-    text-align: left;
-    margin: 20px;
-    align-content: center;
-}
-
-.card-portfolio__description {
-    text-align: left;
-    width: 80%;
-    display: inline-block;
-}
-
-.card-portfolios {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card-portfolio {
-    color: #4a4a5c;
-    font-size: large;
-    background-color: #D9BBB4;
-    border: 5px solid #ffffff;
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 20px;
-    border-radius: 20px;
-    width: 300px;
-    margin: 30px;
-}
-
-
-.card1 .produkt {
-    align-content: center;
-}
-
-.produkt {
-    width: 80%;
 }
