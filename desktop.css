@@ -24,7 +24,6 @@
 
     .menu .show-menu {
         display: block;
-        background-color: #BBA0B2;
         position: static; 
         left: 50%;
     }
