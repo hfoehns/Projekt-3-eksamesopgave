@@ -73,7 +73,7 @@ a {
 }
 
 .menu {
-    background-color: #832161;
+    background-color: #8cabbe;
     right: 0px;
     top: 30px;
     border-radius: 20px;
@@ -82,10 +82,10 @@ a {
 }
 
 .menu button {
-    background-color: #832161;
+    background-color: #8cabbe;
     margin: 10px;
     border: 0px;
-    color: #8cabbe;
+    color: #832161;
     font-size: 42px;
     display: block;
     margin: auto;
@@ -112,7 +112,9 @@ a {
 
 .menu .show-menu {
     display: block;
-    background-color: #832161;
+    background-color: #BBA0B2;
+    position: absolute;
+    left: 50%;
 }
 
 .headline {

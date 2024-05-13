@@ -22,18 +22,22 @@
         padding: 18px;
     }
 
+    .menu .show-menu {
+        display: block;
+        background-color: #BBA0B2;
+        position: static; 
+        left: 50%;
+    }
+
     .apps {
         display: block;
         width: 100%;
         height: auto;
-
-
     }
 
     .apps img {
         width: 125px;
         margin: 50px;
-
     }
 }
 
