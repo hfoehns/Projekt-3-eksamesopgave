@@ -16,12 +16,12 @@ body {
 
 h1 {
     font-family: shadows_into_light;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h2 {
     font-family: shadows_into_light;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 p {
@@ -114,7 +114,7 @@ a {
     display: block;
     background-color: #832161;
     position: absolute;
-    left: 50%;
+    left: 65%;
 }
 
 .headline {
