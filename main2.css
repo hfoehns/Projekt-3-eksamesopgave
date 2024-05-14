@@ -187,7 +187,7 @@ main {
 .contact-info {
     padding: 0;
     width: 95%;
-    margin: auto;
+    margin:auto;
 }
 
 .info {
@@ -196,14 +196,20 @@ main {
     text-align: left;
 }
 
-.info .icon-phone {
-    vertical-align: middle;
-    margin: 20px;
-}
-
-.info .icon-mail {
+.icon-phone {
     vertical-align: middle;
     margin: 10px;
+    width: 50px;
+}
+
+.icon-mail {
+    vertical-align: middle;
+    margin: 10px;
+    width: 50px;
+}
+
+.mail {
+    color: #26547c;
 }
 
 .text-box {
