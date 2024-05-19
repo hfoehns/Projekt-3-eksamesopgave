@@ -290,3 +290,15 @@ button[type="submit"] {
 .produkt {
     width: 80%;
 }
+
+/* CSS for venner mødes */
+.venner {
+    width: 400px;
+    height: 400px;
+    background: url('venner_Tegnebræt\ 1_Tegnebræt\ 1.png') 0 0 no-repeat;
+    animation: play 5s steps(8) infinite;
+}
+@keyframes play {
+    0%{background-position:0px;}
+    100% {background-position: -4000px;}
+}
