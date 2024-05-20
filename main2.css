@@ -294,7 +294,7 @@ button[type="submit"] {
 .venner {
     width: 500px;
     height: 500px;
-    background: url('venner_Tegnebræt\ 1_Tegnebræt\ 1.png') 0 0 no-repeat;
+    background: url('images/venner_Tegnebræt\ 1_Tegnebræt\ 1.png') 0 0 no-repeat;
     animation: play 5s steps(8) infinite;
 }
 @keyframes play {
