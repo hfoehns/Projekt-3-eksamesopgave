@@ -138,7 +138,7 @@ main {
 .card {
     color: #26547c;
     font-size: large;
-    background-color: #ffffff;
+    background-color: #ffeeee;
     border: 5px solid #832161;
     padding: 20px;
     padding-top: 15px;
@@ -215,8 +215,8 @@ main {
 
 .text-box {
     display: block;
-    background-color: #ffffff;
-    border: 15px solid #ffffff;
+    background-color: #ffeeee;
+    border: 15px solid #ffeeee;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -227,8 +227,8 @@ main {
 
 .text-box-besked {
     display: block;
-    background-color: #ffffff;
-    border: 10px solid #ffffff;
+    background-color: #ffeeee;
+    border: 10px solid #ffeeee;
     border-radius: 10px;
     height: 150px;
     margin-top: 10px;
@@ -239,7 +239,7 @@ main {
 button[type="submit"] {
     margin: 10px;
     padding: 10px 20px;
-    background-color: #ffffff;
+    background-color: #ffeeee;
     color: #4a4a5c;
     border: none;
     border-bottom: 2px solid #4a4a5c;
@@ -272,7 +272,7 @@ button[type="submit"] {
 .card-portfolio {
     color: #26547c;
     font-size: large;
-    background-color: #ffffff;
+    background-color: #ffeeee;
     border: 5px solid #832161;
     text-align: center;
     padding-top: 0px;
@@ -292,7 +292,7 @@ button[type="submit"] {
 .produkt-animation {
     width: 250px;
     height: 250px;
-    background: url('images/animation_Tegnebræt\ 1.png') 0 0 no-repeat;
+    background: url('images/animation.png') 0 0 no-repeat;
     animation: play 5s steps(8) infinite;
 }
 @keyframes play {
