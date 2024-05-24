@@ -292,6 +292,7 @@ button[type="submit"] {
 .produkt-animation {
     width: 250px;
     height: 250px;
+    margin-left: 25px;
     background: url('images/animation.png') 0 0 no-repeat;
     animation: play 5s steps(8) infinite;
 }
