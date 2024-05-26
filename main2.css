@@ -213,43 +213,6 @@ main {
     color: #26547c;
 }
 
-.text-box {
-    display: block;
-    background-color: #ffeeee;
-    border: 15px solid #ffeeee;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-    margin-left: 0px;
-    box-sizing: border-box;
-}
-
-.text-box-besked {
-    display: block;
-    background-color: #ffeeee;
-    border: 10px solid #ffeeee;
-    border-radius: 10px;
-    height: 150px;
-    margin-top: 10px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-button[type="submit"] {
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #ffeeee;
-    color: #4a4a5c;
-    border: none;
-    border-bottom: 2px solid #4a4a5c;
-    border-right: 2px solid #4a4a5c;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: crimsonpro;
-}
-
 .description {
     text-align: left;
     margin: 20px;
