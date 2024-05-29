@@ -110,8 +110,8 @@ a {
 .menu .show-menu {
     display: block;
     background-color: #832161;
-    position: absolute;
-    left: 65%;
+    position: fixed;
+    left: 70%;
 }
 
 .headline {

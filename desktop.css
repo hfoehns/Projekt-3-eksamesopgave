@@ -24,8 +24,7 @@
 
     .menu .show-menu {
         display: block;
-        position: static; 
-        left: 65%;
+        position: fixed; 
     }
 
     .apps {
