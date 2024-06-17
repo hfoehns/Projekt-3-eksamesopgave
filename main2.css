@@ -1,37 +1,37 @@
 @font-face {
-    font-family: shadows_into_light;
-    src: url(fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+    font-family: Mclaren;
+    src: url(fonts/McLaren/McLaren-Regular.ttf);
 }
 @font-face {
-    font-family: architects_daughter;
-    src: url(fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf)
+    font-family: Kodchasan;
+    src: url(fonts/Kodchasan/Kodchasan-Regular.ttf)
 }
 
 
 body {
-    background-color: #BBA0B2;
+    background-color: #cc7178;
     margin: 0px;
-    color: #832161;
+    color: #424242;
 }
 
 h1 {
-    font-family: shadows_into_light;
+    font-family: Mclaren;
     font-size: 40px;
 }
 
 h2 {
-    font-family: shadows_into_light;
+    font-family: Mclaren;
     font-size: 40px;
 }
 
 p {
-    font-family: architects_daughter;
+    font-family: Kodchasan;
     font-size: 20px;
     font-weight: 400;
 }
 
 header {
-    background-color: #832161;
+    background-color: #89023e;
     overflow: hidden;
     padding: 10px;
     display: flex;
@@ -45,20 +45,20 @@ main {
 }
 
 footer {
-    background-color: #832161;
+    background-color: #89023e;
     padding: 10px;
     position: relative;
 }
 
 a {
-    color: #8cabbe;
+    color: #feffea;
     text-decoration: none;
 }
 
 .name {
     top: 45px;
     font-size: 30px;
-    font-family: shadows_into_light;
+    font-family: Mclaren;
 
 }
 
@@ -66,11 +66,11 @@ a {
     margin: auto;
     vertical-align:top;/* here */
     max-width: 100%;
-    max-height: 120px;
+    max-height: 150px;
 }
 
 .menu {
-    background-color: #832161;
+    background-color: #89023e;
     right: 0px;
     top: 30px;
     border-radius: 20px;
@@ -79,10 +79,10 @@ a {
 }
 
 .menu button {
-    background-color: #832161;
+    background-color: #89023e;
     margin: 10px;
     border: 0px;
-    color: #8cabbe;
+    color: #feffea;
     font-size: 50px;
     display: block;
     margin: auto;
@@ -103,20 +103,20 @@ a {
     margin-left: 5px;
     display: block;
     font-size: 20px;
-    font-family: shadows_into_light;
+    font-family: Mclaren;
     font-size: 30px;
 }
 
 .menu .show-menu {
     display: block;
-    background-color: #832161;
+    background-color: #89023e;
     position: fixed;
     left: 60%;
 }
 
 .headline {
     text-align: center;
-    font-family: shadows_into_light;
+    font-family: Mclaren;
     font-size: 40px;
 }
 
@@ -133,10 +133,10 @@ main {
 }
 
 .card {
-    color: #26547c;
+    color: #424242;
     font-size: large;
-    background-color: #ffeeee;
-    border: 5px solid #832161;
+    background-color: #feffea;
+    border: 5px solid #89023e;
     padding: 20px;
     padding-top: 15px;
     text-align: left;
@@ -148,8 +148,8 @@ main {
 .find-me {
     display: block;
     font-size: 25px;
-    font-family: shadows_into_light;
-    color: #8cabbe;
+    font-family: Mclaren;
+    color: #feffea;
 }
 
 .social-link {
@@ -163,7 +163,7 @@ main {
     position: absolute;
     right: 10px;
     bottom: 5px;
-    color: #8cabbe;
+    color: #feffea;
 }
 
 .apps {
@@ -189,7 +189,7 @@ main {
 
 .info {
     font-size: 40px;
-    font-family: architects_daughter;
+    font-family: Kodchasan;
     list-style: none;
     text-align: left;
 }
@@ -207,7 +207,7 @@ main {
 }
 
 .mail {
-    color: #26547c;
+    color: #424242;
 }
 
 .description {
@@ -230,15 +230,15 @@ main {
 }
 
 .card-portfolio {
-    color: #26547c;
+    color: #424242;
     font-size: large;
-    background-color: #ffeeee;
-    border: 5px solid #832161;
+    background-color: #feffea;
+    border: 5px solid #89023e;
     text-align: center;
     padding-top: 0px;
     padding-bottom: 20px;
     border-radius: 20px;
-    width: 300px;
+    width: 400px;
     margin: 30px;
 }
 
@@ -252,7 +252,7 @@ main {
 .produkt-animation {
     width: 250px;
     height: 250px;
-    margin-left: 25px;
+    margin-left: 75px;
     background: url('images/animation.png') 0 0 no-repeat;
     animation: play 5s steps(8) infinite;
 }
